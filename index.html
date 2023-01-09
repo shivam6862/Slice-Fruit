@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Slice Game</title>
+    <link rel="title icon" type="image/jpg" href="/img/Title_Icon.jpg" width="25px">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet" ;>
+</head>
+
+<body>
+    <div class="heading love">
+        <div id="name" class="boxshadow">Hi' Player</div>
+    </div>
+    <div id="container">
+        <div id="header">
+            <div id="avaiable" class="boxshadow">
+            </div>
+            <div id="score" class="boxshadow">
+                Score: <span id="scorevalue">0</span>
+            </div>
+        </div>
+        <div class="myQuestion" class="boxshadow">
+            <div id="question">
+                <img id="fruit1" class="fruit">
+            </div>
+            <div id="gameover" class="boxshadow">
+
+            </div>
+
+        </div>
+        <div id="instruction" class="boxshadow">
+            Catch the fruit
+        </div>
+        <div id="laster">
+            <div id="restart" class="boxshadow">
+                Start Game
+            </div>
+        </div>
+        <audio id="slicesound">
+            <source src="/img/appleCuttingSdound.mp3">
+            </source>
+        </audio>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
